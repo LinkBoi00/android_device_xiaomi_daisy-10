@@ -198,7 +198,6 @@ include device/qcom/sepolicy-legacy-um/sepolicy.mk
 TARGET_EXCLUDE_QCOM_SEPOLICY := true
 
 # Treble
-BOARD_VNDK_RUNTIME_DISABLE := true
 BOARD_VNDK_VERSION := current
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
