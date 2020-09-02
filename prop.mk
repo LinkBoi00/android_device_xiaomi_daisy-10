@@ -92,6 +92,7 @@ debug.cpurend.vsync=false \
 debug.egl.hw=1 \
 debug.enable.sglscale=1 \
 debug.gralloc.enable_fb_ubwc=1 \
+debug.hwui.renderer=skiagl \
 debug.mdpcomp.logs=0 \
 debug.mdpcomp.idletime=600 \
 debug.performance.tuning=1 \
@@ -117,7 +118,6 @@ vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 video.accelerate.hw=1 \
-debug.hwui.renderer=opengl
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
