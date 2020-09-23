@@ -266,3 +266,7 @@ sys.vendor.shutdown.waittime=500
 # Enable QC2 bufferqueue block-pool
 PRODUCT_PROPERTY_OVERRIDES += \
 vendor.qc2.use.bqpool=1
+
+# EBPF
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.kernel.ebpf.supported=true
