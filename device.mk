@@ -428,6 +428,7 @@ VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package \
+    libgui_vendor \
     libstdc++.vendor
 
 # Verity
