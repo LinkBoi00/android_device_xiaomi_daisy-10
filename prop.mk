@@ -166,6 +166,10 @@ vendor.video.disable.ubwc=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 vendor.video.disable.ubwc=1
 
+# Netflix
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.netflix.bsp_rev=Q660-13149-1
+
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.qti.sys.fw.bservice_enable=true
