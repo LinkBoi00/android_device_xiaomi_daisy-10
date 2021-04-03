@@ -238,7 +238,7 @@ PRODUCT_COPY_FILES += \
 
 # Healthd
 PRODUCT_PACKAGES += \
-    poweroffcharge
+    chargeonlymode
 
 # HIDL
 PRODUCT_PACKAGES += \
